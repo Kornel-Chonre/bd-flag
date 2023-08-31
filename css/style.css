@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: sans-serif;
+	height: 700px;
+}
+.grn{
+	width: 500px;
+	height: 300px;
+	background: green;
+	margin: 40px auto;
+	position: relative;
+}
+.rd{
+	width: 145px;
+	height: 145px;
+	background: red;
+	border-radius: 100%;
+	top:27%;
+	right:37%; 
+	position: absolute;
+}
+.fb{
+	width: 150px;
+	position: fixed;
+	top: 40%;
+	right: -120px;
+	transition: 1s;
+	
+}
+.fb:hover{
+	right: 0px;
+}
+.twi{
+	width: 150px;
+	position: fixed;
+	top: 49%;
+	right: -120px;
+	transition: 1s;
+	
+}
+.twi:hover{
+	right: 0px;
+}
+.yu{
+	width: 150px;
+	position: fixed;
+	top: 55%;
+	right: -124px;
+	transition: 1s;
+	
+}
+.yu:hover{
+	right: 0px;
+}
+h2{
+	background:green;
+	font-size: 35px;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
+.social-icon{
+	width: 100%;
+	padding: 50px 0px;
+}
+.social-icon .icon{
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+.social-icon .icon li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icon .icon li a{
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 25px;
+	background:lightgray;
+	margin: 0px 10px;
+	color:deeppink;
+	border: 1px solid lightgray;
+	border-radius: 100px;
+	text-decoration: none;
+}
+.social-icon .icon li a:hover, focus{
+	font-size: 28px;
+	background: transparent;
+	color: red;
+	border: 1px solid red;
+}
+.fnt{
+	background:green;
+	font-size: 35px;
+	color: #fff;
+	text-align: center;
+}
+
